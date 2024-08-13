@@ -1,0 +1,34 @@
+.TH ARCHLINUX_DL 1 2024-08-13 GNU
+
+.SH NAME
+archlinux-dl \- Download Arch Linux
+
+.SH SYNOPSIS
+[\fBENVIRONMENT\fR]
+.B archlinux-dl
+
+.SH DESCRIPTION
+.B archlinux-dl
+A simple way to download Arch Linux with signature verification.
+
+.SH ENVIRONMENT
+.TP
+.BR ARCHLINUX
+This is \fBarchlinux-86_64\fR by default, and will download an \fBx86_64\fR \fBISO\fR file. Another option is \fBarchlinux-bootstrap-x86_64.tar.zst\fR for an \fBx86_64\fR boostrap tarball.
+.TP
+.BR DIR
+The download directory. This is the current working directory. Either change this to, or \fBcd\fR into, the needed directory location before starting.
+.TP
+.BR MIRROR
+The host download location. This is \fBUS\fR by default. See \fBhttps://archlinux.org/download\fR for more mirror locations and information.
+
+.SH EXAMPLES
+\fBDIR=~/Downloads\fR \fBarchlinux-dl\fR
+
+\fBMIRROR=https://geo.mirror.pkgbuild.com/iso/latest\fR \fBARCHLINUX=archlinux-bootstrap-x86_64.tar.zst\fR \fBarchlinux-dl\fR
+
+.SH AUTHOR
+lothrond <lothrond@protonmail.com>
+
+.SH SEE ALSO
+\fBhttps://archlinux.org/download\fR
