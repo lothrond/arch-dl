@@ -3,7 +3,7 @@
 An Arch Linux download script.
 
 ### Whats this?
-This is just a very simple way to download Arch Linux for installation with signature verification.
+This is just a very simple way to download Arch Linux for installation, with signature verification.
 
 ### Configuration options for download
 
