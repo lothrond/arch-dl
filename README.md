@@ -41,6 +41,24 @@ Or:
 
 After installation, cd into the needed directory and run `archlinux-dl` to download.
 
+### Flashing to disk/USB
+
+#### On Linux devices:
+
+	dd if=/path/to/archlinux-x86_64.iso of=/dev/usb status=progress
+
+#### On ChromeOS devices:
+
+The `Chromebook Recovery Utility` extension needs to be installed.
+
+Rename the archlinux-x86_64.iso to a `.bin` file:
+
+	mv archlinux-x86_64.iso archlinux-x86_64.bin
+
+Then, open `chrome` and open the `Chromebook Recovery Utility`.
+Click the gear icon in the top right corner, and click `use local image`.
+Plug in the drive. On the next screen make sure to select the correct drive, etc.
+
 See the manual page (after insallation) with `man 1 archlinux-dl` for more information.
 
 #### Copyright (C) 2024, lothrond <lothrond AT protonmail DOT com>
