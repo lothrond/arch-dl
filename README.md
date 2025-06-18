@@ -18,6 +18,9 @@ This script understands a very limited ENVIRONMENT, including:
 `MIRROR`
     This is the current download directory location to the system.
 
+ COLOR
+    (0 or 1) Don't use or use color output.
+
 ### Installation
 
 You will need the `make` package installed on your system.
@@ -51,7 +54,7 @@ After installation, cd into the needed directory and run `archlinux-dl` to downl
 
 The `Chromebook Recovery Utility` extension needs to be installed.
 
-Rename the archlinux-x86_64.iso to a `.bin` file:
+Rename the `archlinux-x86_64.iso` to a `.bin` file:
 
 	mv archlinux-x86_64.iso archlinux-x86_64.bin
 
@@ -61,4 +64,4 @@ Plug in the drive. On the next screen make sure to select the correct drive, etc
 
 See the manual page (after insallation) with `man 1 archlinux-dl` for more information.
 
-#### Copyright (C) 2024, lothrond <lothrond AT protonmail DOT com>
+#### Copyright (C) 2025, lothrond <lothrond AT protonmail DOT com>
