@@ -18,7 +18,7 @@ This script understands a very limited ENVIRONMENT, including:
 `MIRROR`
     This is the current download directory location to the system.
 
- COLOR
+`COLOR`
     (0 or 1) Don't use or use color output.
 
 ### Installation
